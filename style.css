@@ -1,0 +1,44 @@
+.quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#new-quote{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#new-quote:hover{
+    background-color: #0056b3;
+}
+
+#new-quote:active{
+    transform: scale(0.95);
+}
+
+#quote{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+#author{
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+}
+#tags{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: #777;
+    margin-top: 1px;
+}
